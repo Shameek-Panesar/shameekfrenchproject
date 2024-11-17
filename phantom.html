@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Treasure of the Templars</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://wallpaperaccess.com/full/10528313.jpg'); /* Parchment background */
+            background-size: cover;
+            color: #333;
+            line-height: 1.6;
+            height: 100vh;
+             /* Add padding to avoid content being hidden behind the fixed header */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+            height: 100%;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 100%;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .sidebar h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .content {
+            width: 80%;
+            background: rgba(255, 255, 255, 0.8); /* Light parchment-like background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .topic-heading {
+            font-size: 3rem;
+            color: #60180a;
+            margin-bottom: 20px;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        /* Description area styling */
+        .description {
+            font-size: 1.5rem;
+            color: #5a4d3e;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            height: auto;
+            min-height: 150px;
+            resize: vertical;
+            overflow-y: auto;
+            font-family: 'Georgia', serif;
+        }
+        .description img {
+            max-width: 100%; /* Ensures the image does not exceed the container width */
+            height: auto; /* Maintains aspect ratio */
+            display: block;
+            margin: 20px auto; /* Center images with some margin */
+            border: 2px solid #60180a; /* Optional: adds a border around the image */
+            border-radius: 10px; /* Adds rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+        }
+
+
+        /* Ensuring text area looks good and scrolls if needed */
+        .description:focus {
+            outline: none;
+            border: 2px solid #60180a;
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        
+
+        <!-- Content -->
+        <div class="content">
+            <div class="topic-heading">Le Fantôme de l'Opéra.</div>
+            
+            <div class="description" contenteditable="true">
+                <p>Beneath Paris' grand and gilded stage,
+                    A shadow stirs, both love and rage.
+                    In catacombs deep where secrets dwell,
+                    Lies the Phantom, trapped in his own hell.
+                    
+                    A mask he wears, his face concealed,
+                    A scarred visage the world revealed.
+                    But oh, his voice, a siren's call,
+                    Enchanting all within the hall.
+                    
+                    Christine, a beauty, pure and bright,
+                    Drawn to his music's haunting light.
+                    A tale of love, obsession, despair,
+                    A tragic dance, a fated pair.
+                    
+                    The Opera whispers his mournful song,
+                    Where love and madness both belong.
+                    A legend lives in the Phantom's name,
+                    Eternal heartache, endless flame.
+                    <img src="https://imgs.search.brave.com/K70JUKw3w3tErwfB3NPBnbvinYvdKNj4D1-gKKH1MKI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzgzLzY3LzQy/LzM2MF9GXzU4MzY3/NDIwN19TcDV3MjV6/RUw1a2t4dm0ycEVX/Y0xkSExKRTRrMG1t/My5qcGc" >
+</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>

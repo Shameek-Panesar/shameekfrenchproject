@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Treasure of the Templars</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://wallpaperaccess.com/full/10528313.jpg'); /* Parchment background */
+            background-size: cover;
+            color: #333;
+            line-height: 1.6;
+            height: 100vh;
+             /* Add padding to avoid content being hidden behind the fixed header */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+            height: 100%;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 100%;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .sidebar h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .content {
+            width: 80%;
+            background: rgba(255, 255, 255, 0.8); /* Light parchment-like background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .topic-heading {
+            font-size: 3rem;
+            color: #60180a;
+            margin-bottom: 20px;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        /* Description area styling */
+        .description {
+            font-size: 1.5rem;
+            color: #5a4d3e;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            height: auto;
+            min-height: 150px;
+            resize: vertical;
+            overflow-y: auto;
+            font-family: 'Georgia', serif;
+        }
+        .description img {
+            max-width: 100%; /* Ensures the image does not exceed the container width */
+            height: auto; /* Maintains aspect ratio */
+            display: block;
+            margin: 20px auto; /* Center images with some margin */
+            border: 2px solid #60180a; /* Optional: adds a border around the image */
+            border-radius: 10px; /* Adds rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+        }
+
+
+        /* Ensuring text area looks good and scrolls if needed */
+        .description:focus {
+            outline: none;
+            border: 2px solid #60180a;
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        
+
+        <!-- Content -->
+        <div class="content">
+            <div class="topic-heading">The Beast of Gevudan</div>
+            
+            <div class="description" contenteditable="true">
+                <p>Certainly! Here's a 15-line retelling of the *Beast of Gévaudan*, a famous French folktale:
+
+                    ---
+                    
+                    In 1764, whispers filled the hills of Gévaudan,  
+                    A terror emerged, a shadowy spawn.  
+                    The Beast, they claimed, was a monstrous hound,  
+                    With fiery eyes and a growling sound.  
+                    
+                    It stalked the forests, fields, and streams,  
+                    A nightmare born from villagers' dreams.  
+                    With jaws that snapped and claws that tore,  
+                    It claimed over a hundred, and still sought more.  
+                    
+                    The king sent hunters, a knight, and gun,  
+                    But the Beast evaded each and every one.  
+                    A silver bullet, they finally decreed,  
+                    Would end the curse, the monster's greed.  
+                    
+                    Though the Beast fell, its truth unknown,  
+                    Was it wolf, demon, or flesh and bone?  
+                    In Gévaudan, its legend stays,  
+                    A tale of fear from darker days.  
+                    
+                    --- 
+                    
+                    Let me know if you'd like to expand or adjust this!
+                    <img src="https://imgs.search.brave.com/zf0wa5zdkAqRTLiSeBDkq1j0CeYxbhBK_ZgM0OLovjg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dGhlY29sbGVjdG9y/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8wNS9mdXJp/b3VzLWJlYXN0LW9m/LWdldmF1ZGFuLmpw/Zz93aWR0aD0xNDAw/JnF1YWxpdHk9NzA" >
+
+</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>

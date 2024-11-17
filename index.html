@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Legends and Folktales</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to right, #0055A4, #ffffff, #EF4135); /* French Flag Background (blue, white, red) */
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        /* Styling the Sidebar */
+        .sidebar {
+            flex: 0 0 30%;
+            background-color: #43406d;
+            color: white;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0.8;
+        }
+
+        .sidebar h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .sidebar p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        .sidebar .group-members {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 1rem;
+        }
+
+        /* Content styling */
+        .content {
+            flex: 1;
+            margin-left: 32%;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section h2 {
+            color: #60180a;
+            margin-bottom: 15px;
+            font-size: 2.5rem;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #60180a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>French Legends and Folktales</h1>
+            <p>Group Members:</p>
+            <div class="group-members">
+                <p>1. C Vaishnavi-RA2411003010895</p>
+                <p>2. V Sowmya-RA2411003010947</p>
+                <p>3. Saksham Thapar-RA2411003010886</p>
+                <p>4. Adrija-RA2411003010902</p>
+                <p>5. Kamya Singhal-RA2411003010911</p>
+                <p>6. Shameek Panesar-RA2411003010932</p>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Section: The Treasure of the Templars -->
+            <section id="templars">
+                <h2><a href="templars.html">The Treasure of the Templars</a></h2>
+            </section>
+
+            <section id="phantom">
+                <h2><a href="phantom.html">Phantom of Opera</a></h2>
+            </section>
+
+            <!--Jeanne D'Arc-->
+            <section id="D'Arc">
+                <h2><a href="D'Arc.html">Jeanne D' Arc</a></h2>
+            </section>
+
+            <!-- Section: Bayard, the Magical Horse -->
+            <section id="bayard">
+                <h2><a href="bayard.html">Bayard, the Magical Horse, the four sons of Aymon, and Renaud de Montauban</a></h2>
+            </section>
+
+            <!-- Section: The Beast of Gévaudan -->
+            <section id="gevaudan">
+                <h2><a href="gevaudan.html">The Beast of Gévaudan</a></h2>
+            </section>
+
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Treasure of the Templars</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://wallpaperaccess.com/full/10528313.jpg'); /* Parchment background */
+            background-size: cover;
+            color: #333;
+            line-height: 1.6;
+            height: 100vh;
+             /* Add padding to avoid content being hidden behind the fixed header */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+            height: 100%;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 100%;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .sidebar h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .content {
+            width: 80%;
+            background: rgba(255, 255, 255, 0.8); /* Light parchment-like background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .topic-heading {
+            font-size: 3rem;
+            color: #60180a;
+            margin-bottom: 20px;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        /* Description area styling */
+        .description {
+            font-size: 1.5rem;
+            color: #5a4d3e;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            height: auto;
+            min-height: 150px;
+            resize: vertical;
+            overflow-y: auto;
+            font-family: 'Georgia', serif;
+        }
+        .description img {
+            max-width: 100%; /* Ensures the image does not exceed the container width */
+            height: auto; /* Maintains aspect ratio */
+            display: block;
+            margin: 20px auto; /* Center images with some margin */
+            border: 2px solid #60180a; /* Optional: adds a border around the image */
+            border-radius: 10px; /* Adds rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+        }
+
+
+        /* Ensuring text area looks good and scrolls if needed */
+        .description:focus {
+            outline: none;
+            border: 2px solid #60180a;
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        
+
+        <!-- Content -->
+        <div class="content">
+            <div class="topic-heading">Jeanne D'Arc</div>
+            
+            <div class="description" contenteditable="true">
+                <p>
+                    
+                    In Domrémy's quiet fields, a maiden stood tall,  
+                    Her visions of saints were a clarion call.  
+                    The Archangel spoke with a heavenly glow,  
+                    "Save France, dear Jeanne, from her dire foe."  
+                    
+                    A peasant in armor, with courage to spare,  
+                    She donned the steel with a fervent prayer.  
+                    At Orléans' gates, her banner she raised,  
+                    Through battle and fire, her name was praised.  
+                    
+                    "The Maid of Lorraine," her people would sing,  
+                    With faith as her armor, she challenged the king.  
+                    Yet treachery’s hand delivered her fate,  
+                    To England's wrath, a fiery gate.  
+                    
+                    But flames could not silence her voice so divine,  
+                    Her spirit now soars, in France's shrine.  
+                    A hero, a saint, a legend of lore,  
+                    Joan of Arc lives forevermore.  
+
+                    <img src="https://imgs.search.brave.com/AwkR4CItRo5t6n6hVF0lwgXuzwnXFkGdMKvTrKZN5aE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L0o0/S25MRlp2c25Ea2JV/WnZKaHN5U1QtMzIw/LTgwLmpwZw" >
+
+
+</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
